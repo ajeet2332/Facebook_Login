@@ -1,0 +1,110 @@
+/* Facebook login Page CSS*/
+
+h2 {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  position: absolute;
+  left: 44%;
+  margin-top: 50px;
+  background-color: aliceblue;
+  border: 2px solid black;
+}
+input[type="email"],
+input[type="password"] {
+  width: 20vw;
+  height: 5vh;
+  font-size: 15px;
+  border-radius: 4px;
+}
+#login {
+  width: 20.7vw;
+  height: 5vh;
+  border-radius: 3px;
+
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1877f2;
+}
+a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#createacc {
+  width: 15vw;
+  height: 9vh;
+  background-color: #42b72a;
+  font-size: 17px;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 0 16px;
+  position: relative;
+  left: 37px;
+  border-radius: 3px;
+}
+#createnewacc {
+  color: #ffffff;
+  left: 100px;
+}
+div {
+  margin-bottom: 10px;
+}
+#log {
+  color: white;
+  padding: 0 16px;
+}
+#password,
+#username {
+  margin: 0%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#forgotp {
+  color: #1877f2;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 588px) {
+  #createnewacc {
+    width: 80px;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+
+    align-items: center;
+    overflow: hidden;
+  }
+  #createacc {
+    width: 80px;
+    font-size: 20px;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 589px) and (max-width: 819px) {
+  #createnewacc {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  #createacc {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+}
